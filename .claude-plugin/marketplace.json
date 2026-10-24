@@ -1,0 +1,8 @@
+{
+  "name": "alamri-intel-auto-router",
+  "owner": { "name": "Abdulrahman Al-Omari" },
+  "description": "auto-router: per-prompt model routing for Claude.",
+  "plugins": [
+    { "name": "auto-router", "source": "./", "description": "Routes each turn to the cheapest model that clears the bar: Haiku for trivial prompts, Sonnet for routine, session model for hard." }
+  ]
+}

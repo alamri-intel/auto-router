@@ -1,0 +1,14 @@
+{
+  "name": "auto-router",
+  "version": "0.1.0",
+  "description": "Classifies each prompt on a small model and routes the turn to the cheapest model and effort that clears the bar; hard tasks stay on the session model.",
+  "types": "./types/index.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Abdulrahman Al-Omari"
+  },
+  "icon": "./.claude-plugin/icon.png",
+  "displayName": "Auto Router",
+  "homepage": "https://github.com/alamri-intel/auto-router",
+  "repository": "https://github.com/alamri-intel/auto-router"
+}
